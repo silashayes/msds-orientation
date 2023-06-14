@@ -1,0 +1,5 @@
+import pandas as pd
+
+df = pd.read_csv("https://raw.githubusercontent.com/UVADS/orientation-technical/main/content/dat/2023-06-13-survey.csv")
+
+print(df.head())
